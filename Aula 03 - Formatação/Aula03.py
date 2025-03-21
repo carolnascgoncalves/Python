@@ -29,7 +29,7 @@ print(f"{num_int:05d}") #0010
 numeros = [10.5,1,333,440.50] 
 for num in numeros: 
     print(f"{num:>10,.1f}".replace('.',',')) 
-    #Coloca os números a 10 casas na esquerda com 0 numeros decimais
+    #Coloca os números a 10 casas na esquerda com 1 numero decimal
     #Troca '.' por ',': 10.5 -> 10,5
 
 
