@@ -22,9 +22,9 @@ else: #Se o input não for 's' ou 'n', a resposta é inválida então o erro_cup
 
 
 if(erro_venda == False and erro_cupom == False): #Se todos os erros são False, ele mostra o print certo
-    print(f"Venda........: {float(valor):>8.2f} \n" +
-          f"Desconto.....: {float(valor) * desconto:>8.2f} \n" +
-          f"Cupom........: {cupom_desconto:>8.2f} \n" +
+    print(f"Venda........: {float(valor):e>10.2f} \n" +
+          f"Desconto.....: {float(valor) * desconto:e>10.2f} \n" +
+          f"Cupom........: {cupom_desconto:e>10.2f} \n" +
           f"Venda final..: {float(valor) - (float(valor) * desconto) - cupom_desconto:>8.2f} \n")
 
 else: #Se algum dos erros foi mudado para True
