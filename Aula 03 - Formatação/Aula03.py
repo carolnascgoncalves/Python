@@ -25,7 +25,7 @@ num_int = 10
 print(f"{num_int:05d}") #0010
 
 
-#3) Números formatados com distância 10
+#2) Números formatados com distância 10
 numeros = [10.5,1,333,440.50] 
 for num in numeros: 
     print(f"{num:>10,.1f}".replace('.',',')) 
